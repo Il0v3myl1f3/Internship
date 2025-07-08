@@ -55,5 +55,5 @@ catch (IOException e) {
 ```
 ---
 ## About Scalability
-This program can easily handle millions of words, because of the combination of ```HashMap``` and ```BufferedReader``` , which are used for grouping and memory-efficient line reading.
+This program can easily handle millions of words, because of the combination of ```HashMap``` and ```BufferedReader``` , which were used for fast grouping and memory-efficient line reading.
 If we talk about amounts such as billion of words or more then we can use the Divide and Conquer algorithm to split the input into multiple files and such making the process simpler. We can also use our multi-core CPUs to assign multiple threads for each document. These partial results can then be merged, dramatically reducing total runtime.
