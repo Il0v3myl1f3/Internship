@@ -8,9 +8,9 @@ This Java program reads a file containing one word per line and groups words tha
 Compile the program:
 
 ```bash
-javac AnagramFinder.java
+javac FindAnagrams.java
 ```
 ### Run
 ```bash
-java AnagramFinder sample.txt
+java FindAnagrams sample.txt
 ```
